@@ -1,0 +1,54 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #F9F5EB;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+}
+
+.category {
+  margin-bottom: 30px;
+}
+
+h2 {
+  background-color: #DEEEE1;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[disabled] {
+  background-color: #e0e0e0;
+}
+
+input:checked {
+  background-color: #28a745;
+}
